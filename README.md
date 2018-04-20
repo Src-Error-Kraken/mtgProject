@@ -21,6 +21,6 @@ day1-
 day2-
 	A. type out folders [models,routes,controllers].[0]
 	B. type out [views] and render a image. [0]
-	C. populate the tables on seeds
-	D. view the seeds
-	E. begin CSS
+	C. populate the tables on seeds[0]
+	D. view the seeds [0]
+	E. begin CSS & HTML [0]

@@ -17,6 +17,10 @@ function getOneCard(id) {
 	return queryPromise;
 }
 
+function createUser(req, res, next) {
+	console.log(req,body);
+	users
+}
 module.exports = {
 	getAllCards,
 	getOneCard,
