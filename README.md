@@ -20,7 +20,17 @@ day1-
 
 day2-
 	A. type out folders [models,routes,controllers].[1]
-	B. type out [views] and render a image. [0]
-	C. populate the tables on seeds [0]
-	D. view the seeds.[n0]
+	B. type out [views] and render a image. [1]
+	C. populate the tables on seeds [1]
+	D. view the seeds.[0]
 	E. begin CSS. [0]
+
+day3-
+	A. Get Views going[1]
+	<!-- after realizing there should be 4 pages -->
+	B. Create [routes,controllers,and views] for [home,card gallary, loginpage, galleryAfterLogin].[1]
+	C. Draw the new revised wireframe.[1]
+
+Day4. 
+	A. shape out my html[0]
+	B. add media queries to CSS and follow the box method[1]

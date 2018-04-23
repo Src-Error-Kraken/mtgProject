@@ -10,8 +10,8 @@ function sendError(err, req, res, next) {
 	})
 }
 
-
-
+// homeRouter.route('/')
+// 	.get(homeController.sendhome);
 
 
 

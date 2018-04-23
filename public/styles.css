@@ -1,0 +1,57 @@
+.container-banner{
+	width: 960px;
+	margin: 0px auto;
+	background-color: green;
+}
+
+
+
+.login-register {
+	width: 260px;
+	background-color: maroon;
+}
+
+.banner{
+	width: 960px;
+	margin: 0px auto;
+}
+
+
+@media screen and (max-width:959px) {
+	.container-banner{
+		width: 100%
+	}
+
+	.login-register{
+		width: 30%
+	}
+
+	img {
+		width: 100%
+	}
+}
+
+@media screen and (max-width:640px) {
+		
+	.login-register{
+		width: 100%
+	}
+
+	img {
+		width: 100%
+	}
+}
+
+@media screen and (max-width:320px) {
+	.container-banner{
+		width: 320px;
+	}
+	.login-register{
+		width: 320px;
+	}
+
+	img {
+		width: 320px;
+	}
+}
+

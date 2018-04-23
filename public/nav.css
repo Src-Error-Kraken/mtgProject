@@ -1,7 +1,7 @@
 .nav-bar{
 	width: 700px;
 	color: white;
-	background-color: blue;
+	background-color: teal;
 }
 
 @media screen and (max-width:959px) {
