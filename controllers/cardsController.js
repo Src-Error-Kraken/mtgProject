@@ -1,4 +1,4 @@
-const = require('../models/cards');
+const cardsDb = require('../models/cards');
 
 
 function getAll(req, res, next) {
@@ -25,7 +25,18 @@ function getOne(req, res, next) {
 	.catch(err => next(err));
 }
 
+function createUser(req, res, next) {
+	console.log(req.body);
+	userDb.createUser(req.body)
+	.then(data => {
+		console.log(data);
+		res.locals.newUser = data;
+		next();
+	}).catch(err => next(err))
+}
+
 module.exports = {
 	getAll: getAll,
 	getOne: getOne,
+	createUser: createUser,
 }

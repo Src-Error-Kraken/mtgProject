@@ -19,8 +19,8 @@ day1-
 	E. play with api.magicthegathering.io for 20mins[1]
 
 day2-
-	A. type out folders [models,routes,controllers].[0]
+	A. type out folders [models,routes,controllers].[1]
 	B. type out [views] and render a image. [0]
-	C. populate the tables on seeds[0]
-	D. view the seeds [0]
-	E. begin CSS & HTML [0]
+	C. populate the tables on seeds [0]
+	D. view the seeds.[n0]
+	E. begin CSS. [0]

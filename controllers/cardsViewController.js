@@ -1,27 +1,22 @@
-
-const db = require('../config/connection');
-
-function getAllCards(c[]) {
-	const queryPromise = db.any(`
-		SELECT * FROM cards`
-		);
-	return queryPromise;
+function sendCards(req, res) {
+	res.render('partials/index', {
+		cards: res.locals.cards
+	});
 }
 
-function getOneCard(id) {
-	const queryPromise = db.one(`
-		SELECT * FROM cards
-		WHERE card_id = $1
-		`,id
-		);
-	return queryPromise;
+function sendOneCard (req, res) {
+	res.render('cards/show', {
+		card: res.locals.card
+	});
 }
 
-function createUser(req, res, next) {
-	console.log(req,body);
-	users
+function sendCreateUser(req, res, next) {
+	user: res.locals.newUser
+	res.redirect(`Users/%{User.id}`);
 }
+
 module.exports = {
-	getAllCards,
-	getOneCard,
+	sendCards,
+	sendOneCard,
+	sendCreateUser
 }
