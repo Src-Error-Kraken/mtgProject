@@ -1,7 +1,14 @@
 .nav-bar{
 	width: 700px;
 	color: white;
-	background-color: teal;
+	margin: 0px auto;
+	text-align: center;
+	font-size: 25pt;
+}
+
+a{
+	color: white;
+	text-decoration: none;
 }
 
 @media screen and (max-width:959px) {

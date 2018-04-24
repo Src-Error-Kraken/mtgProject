@@ -9,14 +9,3 @@ function createUser(user) {
 	);
 	return queryPromise
 }
-
-
-
-
-function destroyUser(id) {
-	const queryPromise = db.one(`
-		DELETE FROM Users WHERE Users.id = $1
-		`,id
-	);
-	return queryPromise
-}

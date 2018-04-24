@@ -1,0 +1,107 @@
+.container{
+	position: relative;
+	width: 960px;
+	margin: 0px auto;
+	background-color: #221c69;
+}
+
+.formsContainer{
+	
+	display: grid;
+	grid-template: 300px 300px / 50% 50%;
+}
+
+.sign{
+	padding-right: 50px;
+}
+
+#signIn{
+	display: flex;
+	position: absolute;
+	margin-left: 10px;
+	width: 490px;
+	flex-wrap: wrap;
+	color: white;
+	align-items: space-between;
+	justify-content: center;
+	background-color: #221c69;
+}
+
+#signUp{
+	display: flex;
+	position: absolute;
+	margin-left: 456px;
+	width: 490px;
+	color: white;
+	align-content: center;
+	justify-content: center;
+	background-color: #221c69;
+}
+
+.banner{
+	width: 960px;
+	margin: 0px auto;
+}
+
+@media screen and (max-width:959px) {
+	.banner {
+		width: 100%
+	}
+	.container {
+		width: 100%
+	}
+	.formsContainer {
+		width: 100%
+	}
+	.sign {
+		width: 100%
+	}
+	#signUp {
+		width: 100%
+	}
+	#signIn {
+		width: 100%
+	}
+}
+
+@media screen and (max-width:640px) {
+		.banner {
+		width: 100%
+	}
+	.container {
+		width: 100%
+	}
+	.formsContainer {
+		width: 100%
+	}
+	.sign {
+		width: 100%
+	}
+	#signUp {
+		width: 100%
+	}
+	#signIn {
+		width: 100%
+	}
+}
+
+@media screen and (max-width:320px) {
+	.banner {
+		width: 320px;
+	}
+	.container {
+		width: 320px;
+	}
+	.formsContainer {
+		width: 320px;
+	}
+	.sign {
+		width: 320px;
+	}
+	#signUp {
+		width: 320px;
+	}
+	#signIn {
+		width: 320px;
+	}
+}
