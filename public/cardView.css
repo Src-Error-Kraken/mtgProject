@@ -30,3 +30,48 @@
 	height: 200px;
 	width: 200px;
 }
+
+@media screen and (max-width:959px){
+	.gallary-row1{
+		width: 100%
+	}
+	.gallary-row2{
+		width: 100%
+	}
+	.gallary-row3{
+		width: 100%
+	}
+	.gallaria {
+		width: 100%
+	}
+}
+
+@media screen and (max-width:640px){
+	.gallary-row1{
+		width: 100%
+	}
+	.gallary-row2{
+		width: 100%
+	}
+	.gallary-row3{
+		width: 100%
+	}
+	.gallaria{
+		width: 100%
+	}
+}
+
+@media screen and (max-width:320px) {
+	.gallary-row1{
+		width: 320px
+	}
+	.gallary-row2{
+		width: 320px
+	}
+	.gallary-row3{
+		width: 320px
+	}
+	.gallaria{
+		width: 320px
+	}
+}

@@ -10,7 +10,7 @@ const cardsRouter = require('./routes/cardsRouter');
 // const home = require('./views/home');
 
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 
 const app = express();
@@ -39,9 +39,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 app.get('/', function(req, res) {
-	// req.session.counter=(req.session.counter || 0) +1
-	// console.log(req.session.counter);
-	// res.send('sessioning');
+
 	res.render('home.ejs'
 	);
 })
@@ -63,9 +61,6 @@ app.get('/loggedIn', function(req, res) {
 
 
 app.use('/cards', cardsRouter);
-// app.use('/nav', nav)
-// app.use('/home', home)
-
 
 
 app.listen(PORT, () => {

@@ -65,7 +65,7 @@
 }
 
 @media screen and (max-width:640px) {
-		.banner {
+	.banner {
 		width: 100%
 	}
 	.container {
@@ -83,9 +83,7 @@
 	#signIn {
 		width: 100%
 	}
-}
 
-@media screen and (max-width:320px) {
 	.banner {
 		width: 320px;
 	}
